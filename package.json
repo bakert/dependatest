@@ -1,8 +1,15 @@
 {
-  "name": "example-one",
+  "name": "root",
+  "private": true,
   "version": "1.0.0",
   "dependencies": {
-    "lodash": "4.17.15",
-    "axios": "0.21.0"
+    "axios": "0.21.0",
+    "lodash": "4.17.0"
+  },
+  "devDependencies": {
+    "turbo": "latest"
+  },
+  "scripts": {
+    "dev": "turbo run dev"
   }
 }
