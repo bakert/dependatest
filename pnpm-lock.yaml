@@ -24,6 +24,9 @@ importers:
 
   apps/alpha:
     dependencies:
+      axios:
+        specifier: '0.21'
+        version: 0.21.0
       lodash:
         specifier: 4.17.0
         version: 4.17.0
@@ -33,6 +36,9 @@ importers:
 
   apps/test:
     dependencies:
+      axios:
+        specifier: ~0.21.0
+        version: 0.21.0
       chalk:
         specifier: 4.0.0
         version: 4.0.0
