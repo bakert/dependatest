@@ -10,8 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "0.21",
-    "lodash": "4.17.0",
+    "axios": "1.12",
+    "lodash": "4.17.21",
     "react": "17.0.2"
   }
 }
